@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('loginform','FormController@loginForm')->name('form');
+
+Route::post('_lf','FormController@signin')->name('signin');

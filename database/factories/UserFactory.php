@@ -22,3 +22,13 @@ $factory->define(App\User::class, function (Faker $faker) {
         'remember_token' => str_random(10),
     ];
 });
+
+$factory->define(App\FormLogin::class, function (Faker $faker) {
+    return [
+        'name' => $faker->name,
+        'email' => $faker->unique()->safeEmail,
+        'pass' => bcrypt('123456'),
+        'cpass' => bcrypt('123456'),
+
+    ];
+});

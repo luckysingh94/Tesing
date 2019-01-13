@@ -1,0 +1,414 @@
+._xn-glh-circle-add
+{
+    width: 40px;
+    vertical-align: middle;
+    text-align: center;
+    height: 40px;
+    background: #e0e0e0;
+    display: inline-block;
+    padding: 10px 0px;
+    color: rgb(158, 158, 158) !important;
+    border-radius: 50%;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+}
+._xn-glh-circle-add:hover {
+    color: #000 !important;
+    background: rgb(206, 206, 206);
+}
+._xn-glh-profile
+{
+    cursor: pointer;
+}
+._xn-glh-img img
+{
+    width: 100px;
+}
+._xn-form-control
+{
+    z-index: 0;
+}
+._xn-form-control:focus{
+    border-left-color: var(--default-color) !important;
+}
+
+._xn-glh-tooltip{
+    position: relative;
+    display: inline-block;
+}
+._xn-glh-tooltiptext{
+    visibility: hidden;
+    width: 140px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0px;
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    right: 50px;
+    font-size: 12px;
+    font-weight: 600 !important;
+}
+._xn-glh-tooltip ._xn-glh-tooltiptext::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+}
+._xn-glh-tooltip:hover ._xn-glh-tooltiptext{
+    visibility: visible;
+}
+
+._xn-glh-ul-list{
+    list-style: none;
+    position: absolute;
+    border: 1px solid #ddd;
+    width: 85%;
+    top: 37px;
+    padding: 0px 0px;
+    background-color: white;
+    z-index: 1;
+    max-height: 140px;
+    overflow-y: auto;
+    margin: 0;
+
+}
+
+._xn-glh-li{
+    border-bottom: 1px solid #b7b7b7;
+    padding: 5px 10px;
+    display: block !important;
+}
+._xn-glh-li:hover{
+    background-color: #cfcdcd;
+}
+
+li:last-child a{
+    border-bottom: none !important;
+}
+
+._xn-glh-img-size{
+    width: 100%;
+    height: 85px;
+}
+
+._xn-glh-btn{
+    background-color: var(--default-color);
+}
+._xn-glh-w-65{
+    width: 65px;
+    font-size: 10px;
+    font-weight: bold;
+}
+._xn-glh-p-20-10{
+    padding: 20px 10px;
+}
+._xn-glh-accordian{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+._xn-glh-accordian-open{
+    position: absolute;
+    top: -5px;
+    right: 0;
+    font-size: 25px;
+    color: #6f6666;
+    font-weight: bold;
+    display: inline-block;
+}
+._xn-glh-remove{
+    font-size: 12px;
+    background-color: #ececec;
+    border-radius: 10px;
+    padding: 3px 10px;
+    font-weight: 600;
+    top: -2px;
+    position: relative;
+}
+._xn-glh-remove:hover{
+    background-color: #d5d3d3;
+    cursor: pointer;
+}
+._xn-glh-remove i {
+    font-size: 14px;
+}
+.badge-default
+{
+    background: var(--default-color);
+}
+.all-hospital, ._xn-glh-status
+{
+    padding: 0px 15px;
+    border-radius: 10px;
+    font-size: 14px !important;
+    font-weight: bold;
+    cursor: pointer;
+}
+._xn-glh-all-holiday-td
+{
+    width:500px;
+}
+._xn-glh-status-td
+{
+    width: 150px;
+}
+.font-weight-100
+{
+    font-weight: 100;
+}
+.font-weight-200
+{
+    font-weight: 200;
+}
+.font-weight-300
+{
+    font-weight: 300;
+}
+.font-weight-400
+{
+    font-weight: 400;
+}
+.font-weight-500
+{
+    font-weight: 500;
+}
+.font-weight-600
+{
+    font-weight: 600;
+}
+.font-weight-700
+{
+    font-weight: 700;
+}
+._xn-glh-hospital-clinic-img img
+{
+    width: 100%;
+}
+._xn-glh-doc-content
+{
+    padding: 0px 15px;
+}
+._xn-glh-hos-content
+{
+    height: 150px;
+    overflow: hidden;
+}
+._xn-glh-doc-content ._xn-glh-doc-content-no
+{
+    margin: 5px 0px;
+    font-size: 13px;
+    font-weight: 600;
+}
+._xn-glh-more-less
+{
+    text-align: right;
+    padding:15px;
+}
+._xn-glh-more-less span
+{
+    font-weight: bold;
+    background: #03a9f3;
+    cursor: pointer;
+    color: #fff;
+    padding: 0px 10px;
+    border-radius: 15px;
+}
+._xn-glh-more-less span:hover
+{
+    background: #0992d0;
+}
+._xn-glh-doc-content-title
+{
+    position: relative;
+}
+._xn-glh-schedule ._xn-glh-schedule-no,._xn-glh-schedule ._xn-glh-schedule-interval, ._xn-glh-schedule ._xn-glh-schedule-time, ._xn-glh-schedule ._xn-glh-schedule-day, ._xn-glh-schedule ._xn-glh-schedule-consul
+{
+    margin: 5px 0px;
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+._xn-glh-schedule-title
+{
+    position: relative;
+}
+._xn-glh-schedule-title span:nth-child(2), ._xn-glh-doc-content-title span:nth-child(2){
+    font-size: 12px;
+    border-radius: 10px;
+    font-weight: 600;
+    height: 20px;
+    padding: 2px 5px;
+    width: 20px;
+    position: absolute;
+    right: 0;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+._xn-glh-schedule-title span:nth-child(2):hover, ._xn-glh-doc-content-title span:nth-child(2):hover{
+    color: #fff;
+    background-color: #de4a58;
+    border-color: #dc3f4e;
+    cursor: pointer;
+}
+._xn-glh-schedule-title span i, ._xn-glh-doc-content-title span i
+{
+    font-size:14px;
+}
+._xn-glh-schedule-content div:first-child, ._xn-glh-doc-content div:first-child
+{
+    padding: 5px;
+}
+
+._xn-glh-info{
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    background-color: #6f656f;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    padding: 3px 6px;
+    font-size: 10px;
+    color: #fff;
+    font-weight: 900;
+}
+._xn-glh-info-bg-c{
+    background-color: var(--primary);
+}
+._xn-glh-info-bg-h{
+    background-color: var(--yellow);
+}
+._xn-glh-on-off
+{
+
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    border-radius: 10px;
+    width: 45px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+._xn-glh-off
+{
+    background-color: #de4a58;
+    border-color: #dc3f4e;
+
+}
+._xn-glh-on
+{
+    background: #8BC34A;
+}
+._xn-glh-on:hover
+{
+    background: #658d34;
+}
+._xn-glh-off:hover
+{
+    background: #bf404b;
+}
+._xn-glh-stats
+{
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+}
+._xn-glh-stats._xn-glh-earning
+{
+    border: 1px solid #8BC34A;
+    background: #8BC34A;
+}
+
+._xn-glh-p-5 {
+    padding: 5px;
+}
+._xn-glh-m-b-50
+{
+    margin-bottom: 50px;
+}
+.add-hospital
+{
+    padding: 0;
+    height: 22px;
+    font-size: 10px !important;
+    text-align: center;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+._xn-m-l-50p
+{
+    margin-left: 50%;
+}
+._xn-glh-not{
+    border-bottom: 1px solid #b7b7b7;
+    padding: 5px 10px;
+    display: block !important;
+}
+._xn-glh-not:hover{
+    background-color: #cfcdcd;
+}
+._xn-glh-data-list
+{
+    list-style: none;
+    position: absolute;
+    border: 1px solid #ddd;
+    width: 95%;
+    top: 68px;
+    padding: 0px 0px;
+    background-color: white;
+    z-index: 1;
+    max-height: 140px;
+    overflow-y: auto;
+    margin: 0;
+}
+._xn-glh-city-list{
+    border-bottom: 1px solid #b7b7b7;
+    padding: 5px 10px;
+    display: block !important;
+}
+._xn-glh-city-list:hover{
+    background-color: #cfcdcd;
+}
+
+._xn-glh-delete{
+    font-size: 12px;
+    background-color: #ececec;
+    border-radius: 10px;
+    padding: 3px 10px;
+    font-weight: 600;
+    top: -2px;
+    position: relative;
+    color: red;
+}
+._xn-glh-delete:hover{
+    background-color: #d5d3d3;
+    cursor: pointer;
+}
+._xn-glh-delete i {
+    font-size: 14px;
+}
+.text-black{
+    color: #000000;
+
+}
