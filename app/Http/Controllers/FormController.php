@@ -17,13 +17,13 @@ class FormController extends Controller
 
     public function signin(Request $request)
     {
-        $form = FormLogin::find(1);
-        if($form==null)
+        $form = FormLogin::whereEmail($request->_username)->first();
+        if(!$form)
         {
             $r=['e'=>true,'d'=>['_username'=>'Username does not exist']];
             return response()->json($r);
         }
-        if(!Hash::check($request->_pass,$form->pass))
+        if(!Hash::check($request->_pass,$form->cpass))
         {
             $r=['e'=>true,'d'=>['_pass'=>'Password does not exist']];
             return response()->json($r);
